@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RoleModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="contactWebsite" version="2.5.6496.10" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <Runtime>
+    <EntryPoint>
+      <NetFxEntryPoint assemblyName="contactWebsite.dll" targetFrameworkVersion="v4.0" />
+    </EntryPoint>
+  </Runtime>
+  <Properties>
+    <Property name="TargetFrameworkVersion" value="v4.5" />
+    <Property name="RoleType" value="Web" />
+    <Property name="RoleName" value="contactWebsite" />
+    <Property name="ProjectName" value="contactWebsite" />
+    <Property name="Configuration" value="Debug" />
+    <Property name="Platform" value="AnyCPU" />
+    <Property name="SetConfiguration" value="Configuration=Debug" />
+    <Property name="SetPlatform" value="Platform=AnyCPU" />
+    <Property name="RoleTargetFramework" value="v4.5" />
+    <Property name="OutputDir" value="C:\Users\Jake\Documents\Visual Studio 2013\Projects\cs491\cs491\obj\Debug\contactWebsite\" />
+    <Property name="EntryPoint" value="contactWebsite.dll" />
+    <Property name="SourceDir" value="C:\Users\Jake\Documents\Visual Studio 2013\Projects\cs491\contactWebsite\" />
+    <Property name="SitePhysicalPath" value="C:\Users\Jake\Documents\Visual Studio 2013\Projects\cs491\contactWebsite\" />
+    <Property name="TargetRuntimeVersion" value="v4.0" />
+  </Properties>
+  <Sites>
+    <Site name="Web" physicalDirectory="C:\Users\Jake\Documents\Visual Studio 2013\Projects\cs491\contactWebsite\">
+      <Bindings>
+        <Binding name="Endpoint1" endpointName="Endpoint1" />
+      </Bindings>
+    </Site>
+  </Sites>
+</RoleModel>

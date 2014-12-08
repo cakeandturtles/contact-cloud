@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="cs491" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="contactWebsite">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="MyConnectionString" value="DefaultEndpointsProtocol=https;AccountName=contactcs491;AccountKey=Kf+f5xhjvJJ5+38xHsSCFYfBW4jK7WPuCIwaSEJgwSYwKtwk3o1K/DoSSudEYxt9b2kcgONzTb7WehjtdA+Hsw==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
